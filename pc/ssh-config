@@ -1,0 +1,4 @@
+Host linux-book
+    HostName 192.168.252.3
+    User yamada-taro
+    IdentityFile ~/.ssh/linux-book
