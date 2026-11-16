@@ -4,6 +4,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 NOTICES = [
     {"date": "2026-11-25", "title": "11月の棚卸し"},
     {"date": "2026-12-01", "title": "年末の大掃除の当番"},
+    {"date": "2026-12-10", "title": "忘年会の出欠"},
+    {"date": "2026-12-25", "title": "年末年始の休業日"},
 ]
 
 
