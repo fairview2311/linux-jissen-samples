@@ -1,0 +1,12 @@
+[Unit]
+Description=Midori notice API
+After=network.target
+
+[Service]
+User=notice-api
+WorkingDirectory=/srv/notice-api
+ExecStart=/usr/bin/python3 /srv/notice-api/notice_api.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
